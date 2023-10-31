@@ -1,5 +1,6 @@
-FROM Python:3.12.0-bookworm
-
-WORKDIR /usr/src/app
-
-COPY . .
+FROM python:3.12
+RUN apt-get update 
+RUN apt-get install -y vim
+WORKDIR /app
+VOLUME ["/app"]
+CMD ["/bin/bash"]
