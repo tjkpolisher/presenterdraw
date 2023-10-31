@@ -21,6 +21,3 @@ $ docker run -it --dns 8.8.8.8 -v ~/code/presenterdraw:/app --name mypy312 pytho
 ```Bash
 $ python draw_presenter.py
 ```
-
-### Test Result
-![image](https://github.com/tjkpolisher/Bootcamp_TIL/assets/80250150/e2769952-63cb-4810-823d-c9492a716299)
